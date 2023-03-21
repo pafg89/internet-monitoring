@@ -50,11 +50,3 @@ http://localhost:9090/graph?g0.expr=probe_http_status_code&g0.tab=1 shows promet
 http://localhost:9115 blackbox exporter endpoint. Lets you see what have failed/succeded.
 
 http://localhost:9798/metrics speedtest exporter endpoint. Does take about 30 seconds to show its result as it runs an actual speedtest when requested.
-
-## Thanks and a disclaimer
-
-Thanks to @maxandersen for making the original project this fork is based on.
-
-Thanks to @vegasbrianc work on making a [super easy docker](https://github.com/vegasbrianc/github-monitoring) stack for running prometheus and grafana.
-
-This setup is not secured in any way, so please only use on non-public networks, or find a way to secure it on your own.
